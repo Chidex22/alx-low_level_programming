@@ -2,14 +2,18 @@
 
 /**
  * swap_int - Swaps the values of two integers.
- * @a: int a
- * @b: int b
+ * @a: The first integer to be swapped.
+ * @b: The second integer to be swapped.
+ *
+ * Retrun: nothing
  */
-void swap_int(int *a, int *b)
-{
-	int a;
 
-	a = *a;
+void swap_int(int *a, int *b)
+
+/* the function that swaps the values of two integers.
+*/
+{
+	int temp = *a;
 	*a = *b;
-	*b = a;
+	*b = temp;
 }
