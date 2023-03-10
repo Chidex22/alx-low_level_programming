@@ -1,4 +1,4 @@
-iinclude "main.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,6 +6,7 @@ iinclude "main.h"
  * main - Entry point
  * Description: Multiplies two numbers
  * @argc: No of command line arguments
+ * @argv: Array name
  * Return: 1 if needs more arguements, 0 otherwise
  */
 
