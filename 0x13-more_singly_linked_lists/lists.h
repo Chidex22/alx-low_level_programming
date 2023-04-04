@@ -1,8 +1,8 @@
 #ifndef MY_LISTS_H
 #define MY_LISTS_H
 
-/**
- * Description: Header file for thee More singly linked list project
+/*
+ * Description: Header file for thee More singly linked list project.
  * contains functions and prototypes used
  */
 
